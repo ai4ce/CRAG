@@ -104,6 +104,8 @@ We provide an evaluation script in `scripts/eval.sh`, modify the `experiment` an
 
 Results (per-sample transformations, generated results and aggregate metrics) are written under `logs/<EXPERIMENT_NAME>/`. For the most reliable per-sample dumps we recommend single-GPU evaluation.
 
+Checkpoint (BreakingBad & PartNeXt Combined): [Link](https://drive.google.com/file/d/1SjUbMpq3kKvtvCUJ6pSWtmeSgzmyKAQs/view?usp=drive_link)
+
 ### 🎮 **Training**
 Training proceeds in two stages: an assembly pre-training stage, followed by a generation-coupled fine-tuning stage. We provide one launcher per dataset family.
 
